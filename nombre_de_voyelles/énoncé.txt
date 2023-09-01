@@ -1,0 +1,15 @@
+🔶 Énoncé :
+Ce premier challenge sera très simple, c’est un niveau débutant, mais si vous avez plus de l’expérience, vous pouvez essayer de trouver de belles astuces pour un code propre, rapide et concis.
+
+👉 Créez une fonction nb_voyelles(phrase: str)->int qui retourne le résultat du nombre total de voyelles dans une phrase passée en paramètre.
+🔹 Conditions
+Les voyelles sont : aeiou, y n’est pas pris en compte
+Les voyelles accentuées ne sont pas prises en compte
+La phrase passée en paramètre doit être écrite en minuscule
+Une chaine vide, passée en paramètre, renvoie 0
+
+🔹 Exemples
+nb_voyelles("bonjour, comment allez-vous ?") retourne 9
+nb_voyelles("je vais à paris") retourne 5
+nb_voyelles("docstring") retourne 2
+nb_voyelles("") retourne 0
